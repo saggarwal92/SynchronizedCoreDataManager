@@ -7,23 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		513916281DAEA6AE00BB02F4 /* Entity.m in Sources */ = {isa = PBXBuildFile; fileRef = 513916231DAEA6AE00BB02F4 /* Entity.m */; };
+		513916291DAEA6AE00BB02F4 /* SynchronizedCoreDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 513916251DAEA6AE00BB02F4 /* SynchronizedCoreDataManager.m */; };
+		5139162A1DAEA6AE00BB02F4 /* Transaction.m in Sources */ = {isa = PBXBuildFile; fileRef = 513916271DAEA6AE00BB02F4 /* Transaction.m */; };
+		5139162F1DAEA6C300BB02F4 /* ArticleEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 5139162C1DAEA6C300BB02F4 /* ArticleEntity.m */; };
+		513916301DAEA6C300BB02F4 /* VoteEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 5139162E1DAEA6C300BB02F4 /* VoteEntity.m */; };
+		513916351DAEA6D000BB02F4 /* AddVoteForArticleTransaction.m in Sources */ = {isa = PBXBuildFile; fileRef = 513916321DAEA6D000BB02F4 /* AddVoteForArticleTransaction.m */; };
+		513916361DAEA6D000BB02F4 /* ReadAllArticlesTransaction.m in Sources */ = {isa = PBXBuildFile; fileRef = 513916341DAEA6D000BB02F4 /* ReadAllArticlesTransaction.m */; };
+		513916391DAEA6DA00BB02F4 /* TestModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 513916371DAEA6DA00BB02F4 /* TestModel.xcdatamodeld */; };
+		5139163C1DAEA70000BB02F4 /* WriteAllArticlesTransaction.m in Sources */ = {isa = PBXBuildFile; fileRef = 5139163B1DAEA70000BB02F4 /* WriteAllArticlesTransaction.m */; };
+		5139163F1DAEA7AC00BB02F4 /* TestingFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 5139163E1DAEA7AC00BB02F4 /* TestingFile.m */; };
 		51F792941DAE8EA900187097 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 51F792931DAE8EA900187097 /* main.m */; };
 		51F792971DAE8EA900187097 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 51F792961DAE8EA900187097 /* AppDelegate.m */; };
 		51F7929A1DAE8EA900187097 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51F792991DAE8EA900187097 /* ViewController.m */; };
 		51F7929D1DAE8EA900187097 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51F7929B1DAE8EA900187097 /* Main.storyboard */; };
 		51F7929F1DAE8EA900187097 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51F7929E1DAE8EA900187097 /* Assets.xcassets */; };
 		51F792A21DAE8EA900187097 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51F792A01DAE8EA900187097 /* LaunchScreen.storyboard */; };
-		51F792AC1DAE8EF400187097 /* SynchronizedCoreDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 51F792AB1DAE8EF400187097 /* SynchronizedCoreDataManager.m */; };
-		51F792B51DAE8F9C00187097 /* Transaction.m in Sources */ = {isa = PBXBuildFile; fileRef = 51F792B41DAE8F9C00187097 /* Transaction.m */; };
-		51F792B81DAE904F00187097 /* Entity.m in Sources */ = {isa = PBXBuildFile; fileRef = 51F792B71DAE904F00187097 /* Entity.m */; };
-		51F792BC1DAE979B00187097 /* TestModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 51F792BA1DAE979B00187097 /* TestModel.xcdatamodeld */; };
-		51F792C01DAE97E400187097 /* VoteEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 51F792BF1DAE97E400187097 /* VoteEntity.m */; };
-		51F792C31DAE98C600187097 /* ArticleEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 51F792C21DAE98C600187097 /* ArticleEntity.m */; };
-		51F792C71DAE9A0D00187097 /* ReadAllArticlesTransaction.m in Sources */ = {isa = PBXBuildFile; fileRef = 51F792C61DAE9A0D00187097 /* ReadAllArticlesTransaction.m */; };
-		51F792CA1DAE9B5C00187097 /* AddVoteForArticleTransaction.m in Sources */ = {isa = PBXBuildFile; fileRef = 51F792C91DAE9B5C00187097 /* AddVoteForArticleTransaction.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		513916221DAEA6AE00BB02F4 /* Entity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Entity.h; path = Files/Entity.h; sourceTree = "<group>"; };
+		513916231DAEA6AE00BB02F4 /* Entity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Entity.m; path = Files/Entity.m; sourceTree = "<group>"; };
+		513916241DAEA6AE00BB02F4 /* SynchronizedCoreDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SynchronizedCoreDataManager.h; path = Files/SynchronizedCoreDataManager.h; sourceTree = "<group>"; };
+		513916251DAEA6AE00BB02F4 /* SynchronizedCoreDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SynchronizedCoreDataManager.m; path = Files/SynchronizedCoreDataManager.m; sourceTree = "<group>"; };
+		513916261DAEA6AE00BB02F4 /* Transaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Transaction.h; path = Files/Transaction.h; sourceTree = "<group>"; };
+		513916271DAEA6AE00BB02F4 /* Transaction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Transaction.m; path = Files/Transaction.m; sourceTree = "<group>"; };
+		5139162B1DAEA6C300BB02F4 /* ArticleEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ArticleEntity.h; path = Example/ArticleEntity.h; sourceTree = "<group>"; };
+		5139162C1DAEA6C300BB02F4 /* ArticleEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ArticleEntity.m; path = Example/ArticleEntity.m; sourceTree = "<group>"; };
+		5139162D1DAEA6C300BB02F4 /* VoteEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VoteEntity.h; path = Example/VoteEntity.h; sourceTree = "<group>"; };
+		5139162E1DAEA6C300BB02F4 /* VoteEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VoteEntity.m; path = Example/VoteEntity.m; sourceTree = "<group>"; };
+		513916311DAEA6D000BB02F4 /* AddVoteForArticleTransaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AddVoteForArticleTransaction.h; path = Example/AddVoteForArticleTransaction.h; sourceTree = "<group>"; };
+		513916321DAEA6D000BB02F4 /* AddVoteForArticleTransaction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AddVoteForArticleTransaction.m; path = Example/AddVoteForArticleTransaction.m; sourceTree = "<group>"; };
+		513916331DAEA6D000BB02F4 /* ReadAllArticlesTransaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ReadAllArticlesTransaction.h; path = Example/ReadAllArticlesTransaction.h; sourceTree = "<group>"; };
+		513916341DAEA6D000BB02F4 /* ReadAllArticlesTransaction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ReadAllArticlesTransaction.m; path = Example/ReadAllArticlesTransaction.m; sourceTree = "<group>"; };
+		513916381DAEA6DA00BB02F4 /* TestModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TestModel.xcdatamodel; sourceTree = "<group>"; };
+		5139163A1DAEA70000BB02F4 /* WriteAllArticlesTransaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WriteAllArticlesTransaction.h; sourceTree = "<group>"; };
+		5139163B1DAEA70000BB02F4 /* WriteAllArticlesTransaction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WriteAllArticlesTransaction.m; sourceTree = "<group>"; };
+		5139163D1DAEA7AC00BB02F4 /* TestingFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestingFile.h; sourceTree = "<group>"; };
+		5139163E1DAEA7AC00BB02F4 /* TestingFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestingFile.m; sourceTree = "<group>"; };
 		51F7928F1DAE8EA900187097 /* CoreDataManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		51F792931DAE8EA900187097 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		51F792951DAE8EA900187097 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -34,21 +55,6 @@
 		51F7929E1DAE8EA900187097 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		51F792A11DAE8EA900187097 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		51F792A31DAE8EA900187097 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		51F792AA1DAE8EF400187097 /* SynchronizedCoreDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SynchronizedCoreDataManager.h; sourceTree = "<group>"; };
-		51F792AB1DAE8EF400187097 /* SynchronizedCoreDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SynchronizedCoreDataManager.m; sourceTree = "<group>"; };
-		51F792B31DAE8F9C00187097 /* Transaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Transaction.h; sourceTree = "<group>"; };
-		51F792B41DAE8F9C00187097 /* Transaction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Transaction.m; sourceTree = "<group>"; };
-		51F792B61DAE904F00187097 /* Entity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Entity.h; sourceTree = "<group>"; };
-		51F792B71DAE904F00187097 /* Entity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Entity.m; sourceTree = "<group>"; };
-		51F792BB1DAE979B00187097 /* TestModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TestModel.xcdatamodel; sourceTree = "<group>"; };
-		51F792BE1DAE97E400187097 /* VoteEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VoteEntity.h; sourceTree = "<group>"; };
-		51F792BF1DAE97E400187097 /* VoteEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VoteEntity.m; sourceTree = "<group>"; };
-		51F792C11DAE98C600187097 /* ArticleEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArticleEntity.h; sourceTree = "<group>"; };
-		51F792C21DAE98C600187097 /* ArticleEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArticleEntity.m; sourceTree = "<group>"; };
-		51F792C51DAE9A0D00187097 /* ReadAllArticlesTransaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReadAllArticlesTransaction.h; sourceTree = "<group>"; };
-		51F792C61DAE9A0D00187097 /* ReadAllArticlesTransaction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReadAllArticlesTransaction.m; sourceTree = "<group>"; };
-		51F792C81DAE9B5C00187097 /* AddVoteForArticleTransaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddVoteForArticleTransaction.h; sourceTree = "<group>"; };
-		51F792C91DAE9B5C00187097 /* AddVoteForArticleTransaction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddVoteForArticleTransaction.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,12 +113,12 @@
 		51F792A91DAE8ED600187097 /* files */ = {
 			isa = PBXGroup;
 			children = (
-				51F792AA1DAE8EF400187097 /* SynchronizedCoreDataManager.h */,
-				51F792AB1DAE8EF400187097 /* SynchronizedCoreDataManager.m */,
-				51F792B31DAE8F9C00187097 /* Transaction.h */,
-				51F792B41DAE8F9C00187097 /* Transaction.m */,
-				51F792B61DAE904F00187097 /* Entity.h */,
-				51F792B71DAE904F00187097 /* Entity.m */,
+				513916221DAEA6AE00BB02F4 /* Entity.h */,
+				513916231DAEA6AE00BB02F4 /* Entity.m */,
+				513916241DAEA6AE00BB02F4 /* SynchronizedCoreDataManager.h */,
+				513916251DAEA6AE00BB02F4 /* SynchronizedCoreDataManager.m */,
+				513916261DAEA6AE00BB02F4 /* Transaction.h */,
+				513916271DAEA6AE00BB02F4 /* Transaction.m */,
 			);
 			name = files;
 			sourceTree = "<group>";
@@ -120,9 +126,11 @@
 		51F792B91DAE977D00187097 /* example */ = {
 			isa = PBXGroup;
 			children = (
+				513916371DAEA6DA00BB02F4 /* TestModel.xcdatamodeld */,
+				5139163D1DAEA7AC00BB02F4 /* TestingFile.h */,
+				5139163E1DAEA7AC00BB02F4 /* TestingFile.m */,
 				51F792C41DAE992A00187097 /* exampletransactions */,
 				51F792BD1DAE97C300187097 /* exampleentities */,
-				51F792BA1DAE979B00187097 /* TestModel.xcdatamodeld */,
 			);
 			name = example;
 			sourceTree = "<group>";
@@ -130,10 +138,10 @@
 		51F792BD1DAE97C300187097 /* exampleentities */ = {
 			isa = PBXGroup;
 			children = (
-				51F792BE1DAE97E400187097 /* VoteEntity.h */,
-				51F792BF1DAE97E400187097 /* VoteEntity.m */,
-				51F792C11DAE98C600187097 /* ArticleEntity.h */,
-				51F792C21DAE98C600187097 /* ArticleEntity.m */,
+				5139162B1DAEA6C300BB02F4 /* ArticleEntity.h */,
+				5139162C1DAEA6C300BB02F4 /* ArticleEntity.m */,
+				5139162D1DAEA6C300BB02F4 /* VoteEntity.h */,
+				5139162E1DAEA6C300BB02F4 /* VoteEntity.m */,
 			);
 			name = exampleentities;
 			sourceTree = "<group>";
@@ -141,10 +149,12 @@
 		51F792C41DAE992A00187097 /* exampletransactions */ = {
 			isa = PBXGroup;
 			children = (
-				51F792C51DAE9A0D00187097 /* ReadAllArticlesTransaction.h */,
-				51F792C61DAE9A0D00187097 /* ReadAllArticlesTransaction.m */,
-				51F792C81DAE9B5C00187097 /* AddVoteForArticleTransaction.h */,
-				51F792C91DAE9B5C00187097 /* AddVoteForArticleTransaction.m */,
+				513916311DAEA6D000BB02F4 /* AddVoteForArticleTransaction.h */,
+				513916321DAEA6D000BB02F4 /* AddVoteForArticleTransaction.m */,
+				513916331DAEA6D000BB02F4 /* ReadAllArticlesTransaction.h */,
+				513916341DAEA6D000BB02F4 /* ReadAllArticlesTransaction.m */,
+				5139163A1DAEA70000BB02F4 /* WriteAllArticlesTransaction.h */,
+				5139163B1DAEA70000BB02F4 /* WriteAllArticlesTransaction.m */,
 			);
 			name = exampletransactions;
 			sourceTree = "<group>";
@@ -219,17 +229,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				51F792BC1DAE979B00187097 /* TestModel.xcdatamodeld in Sources */,
-				51F792C71DAE9A0D00187097 /* ReadAllArticlesTransaction.m in Sources */,
-				51F792B81DAE904F00187097 /* Entity.m in Sources */,
-				51F792C01DAE97E400187097 /* VoteEntity.m in Sources */,
 				51F7929A1DAE8EA900187097 /* ViewController.m in Sources */,
+				513916361DAEA6D000BB02F4 /* ReadAllArticlesTransaction.m in Sources */,
 				51F792971DAE8EA900187097 /* AppDelegate.m in Sources */,
-				51F792AC1DAE8EF400187097 /* SynchronizedCoreDataManager.m in Sources */,
-				51F792CA1DAE9B5C00187097 /* AddVoteForArticleTransaction.m in Sources */,
-				51F792B51DAE8F9C00187097 /* Transaction.m in Sources */,
+				513916301DAEA6C300BB02F4 /* VoteEntity.m in Sources */,
+				513916291DAEA6AE00BB02F4 /* SynchronizedCoreDataManager.m in Sources */,
+				5139163C1DAEA70000BB02F4 /* WriteAllArticlesTransaction.m in Sources */,
+				513916391DAEA6DA00BB02F4 /* TestModel.xcdatamodeld in Sources */,
+				5139162A1DAEA6AE00BB02F4 /* Transaction.m in Sources */,
+				513916281DAEA6AE00BB02F4 /* Entity.m in Sources */,
+				513916351DAEA6D000BB02F4 /* AddVoteForArticleTransaction.m in Sources */,
 				51F792941DAE8EA900187097 /* main.m in Sources */,
-				51F792C31DAE98C600187097 /* ArticleEntity.m in Sources */,
+				5139163F1DAEA7AC00BB02F4 /* TestingFile.m in Sources */,
+				5139162F1DAEA6C300BB02F4 /* ArticleEntity.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -380,17 +392,19 @@
 				51F792A81DAE8EA900187097 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		51F792BA1DAE979B00187097 /* TestModel.xcdatamodeld */ = {
+		513916371DAEA6DA00BB02F4 /* TestModel.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				51F792BB1DAE979B00187097 /* TestModel.xcdatamodel */,
+				513916381DAEA6DA00BB02F4 /* TestModel.xcdatamodel */,
 			);
-			currentVersion = 51F792BB1DAE979B00187097 /* TestModel.xcdatamodel */;
-			path = TestModel.xcdatamodeld;
+			currentVersion = 513916381DAEA6DA00BB02F4 /* TestModel.xcdatamodel */;
+			name = TestModel.xcdatamodeld;
+			path = Example/TestModel.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
